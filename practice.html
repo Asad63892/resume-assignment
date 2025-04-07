@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - Asad Ullah</title>
+  <style>
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      margin: 10px;
+      padding: 0;
+      background-color: lightgray;
+    }
+
+    .container {
+      width: 850px;
+      margin: 0 auto;
+      background: white;
+      border: 20px solid white;
+    }
+
+    .inner-container {
+      display: flex;
+      background: solid white;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .left {
+      width: 40%;
+      background:  rgb(236, 234, 234);;
+      color: black;
+      padding: 0px;
+      text-align: center;
+      position: relative;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    .image-wrapper {
+      position: relative;
+      width: 100%;
+      height: 250px;
+      margin-top: 0px;
+    }
+
+    .triangle-bg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #1187d6;
+      border-top-left-radius: 5%;
+      border-top-right-radius: 30px;
+
+      clip-path: polygon(0 0, 100% 0, 0 100%);
+      border-bottom-right-radius: 40px;
+      z-index: 0;
+    }
+
+    .image-wrapper img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+      top: 20px;
+      left: -5px;
+      background-color: white;
+    }
+
+    .left h2 {
+      margin: 10px 0;
+      font-size: 22px;
+      color: #1187d6;
+    }
+
+    .left h3 {
+      color: rgba(0, 119, 255, 0.781);
+    }
+
+    .left p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .left .section {
+      text-align: left;
+      margin: 20px 10px 0 10px;
+    }
+
+    .left .section h3 {
+      border-bottom: 2px solid gray;
+      padding-bottom: 5px;
+    }
+
+    .right {
+      width: 70%;
+      padding: 40px;
+      background:  rgb(236, 234, 234);;
+      border-left: 20px solid white;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      
+    }
+
+    .right h3 {
+      color: rgb(90, 88, 88);
+      border-bottom: 2px solid gray;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      
+    }
+
+    .right .section {
+      margin-bottom: 20px;
+    }
+
+    .right .section h4 {
+      color: gray;
+      margin-bottom: 5px;
+    }
+
+    .right .section p {
+      font-size: 14px;
+      color: dimgray;
+    }
+
+    .skill {
+      margin-bottom: 10px;
+    }
+
+    .skill span {
+      display: block;
+      font-size: 12px;
+      color: black;
+      margin-bottom: 4px;
+    }
+
+    .bar {
+      background-color: gray;
+      height: 4px;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      background-color: #2c2c2c;
+    }
+
+    
+    
+    
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="left">
+        <div class="image-wrapper">
+          <div class="triangle-bg"></div>
+          <img src="images/profile.png" alt="Profile Picture" />
+        </div>
+        <h2>ASAD ULLAH</h2>
+        <p>Software Engineer</p>
+        <p>ABOUT ME</p>
+
+        <div class="section">
+          <h3>Contact</h3>
+          <p>Address: B-12, North Nazimabad, PK</p>
+          <p>Phone: +92 312 654 7890</p>
+          <p>Email: asad@techworld.com</p>
+        </div>
+
+        <div class="section">
+          <h3>Skills</h3>
+          <div class="skill">
+            <span>COMMUNICATION</span>
+            <div class="bar"><div class="fill" style="width: 60%;"></div></div>
+          </div>
+          <div class="skill">
+            <span>PROGRAMMING</span>
+            <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill">
+            <span>DESIGNING</span>
+            <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+          </div>
+          <div class="skill">
+            <span>ORGANIZATION</span>
+            <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+          </div>
+          <div class="skill">
+            <span>LEADERSHIP</span>
+            <div class="bar"><div class="fill" style="width: 65%;"></div></div>
+          </div>
+          <div class="skill">
+            <span>TEAMPLAYER</span>
+            <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Software</h3>
+          <p>MS Office,Illustrator,Photoshop, Eclipse, Figma, Postman, GitHub</p>
+        </div>
+
+        <div class="section">
+          <h3>Languages</h3>
+          <p>Python, C, Java, JavaScript,HTML,CSS</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <h3>Work Experience</h3>
+        <div class="section">
+          <h4>Software Engineer - Tech Solutions</h4>
+          <p>Developing and maintaining web applications using modern technologies.</p>
+        </div>
+        <div class="section">
+          <h4>Freelancing - Self Employed</h4>
+          <p>Providing custom software solutions for clients worldwide.</p>
+        </div>
+
+        <h3>Education</h3>
+        <div class="section">
+          <h4>Bachlor in Software Engineering - Iqra University</h4>
+          <p>In progress</p>
+        </div>
+        <div class="section">
+          <h4>Diploma in Editing photoshop,Illustrator,Aftereffect - Digiskills Program</h4>
+          <p>CGPA 3.5 .</p>
+        </div>
+
+        <h3>Hobbies</h3>
+        <div class="section">
+          <p>🏏 Cricket &nbsp; 🎮 Gaming &nbsp; 📸 Photography &nbsp; ✈️ Traveling</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
